@@ -1,18 +1,14 @@
-// Exercise 1: Print numbers 1–10
-for (let i = 1; i <= 10; i++) {
-    console.log(i);
+// --- 1. Even Numbers Loop ---
+console.log("--- 1. Even Numbers (2 to 10) ---");
+for (let i = 2; i <= 10; i += 2) {
+    console.log("Even Number: " + i);
 }
 
-// Exercise 2: Even numbers
-for (let i = 1; i <= 10; i++) {
-    if (i % 2 === 0) {
-        console.log(i + " is even");
-    }
+// --- 2. Fruit List Loop ---
+// I changed 'fruits' to 'myExerciseFruits' to fix the red error!
+console.log("--- 2. My Favorite Fruits ---");
+const myExerciseFruits = ["Apple", "Banana", "Orange", "Mango"];
+
+for (let i = 0; i < myExerciseFruits.length; i++) {
+    console.log("Fruit " + (i + 1) + ": " + myExerciseFruits[i]);
 }
-
-// Exercise 3: Array example
-let fruits = ["Apple", "Banana", "Mango"];
-
-fruits.forEach(function(fruit) {
-    console.log(fruit);
-});
