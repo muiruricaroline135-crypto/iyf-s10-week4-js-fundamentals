@@ -1,4 +1,3 @@
-
 // Grade Tracker by Caroline
 
 const gradeTracker = {
@@ -17,8 +16,3 @@ const gradeTracker = {
     return total / values.length;
   }
 };
-
-// Test
-gradeTracker.addStudent("Caroline", { math: 90, english: 85, science: 88 });
-
-console.log("Average:", gradeTracker.getStudentAverage("Caroline"));
